@@ -1,0 +1,5 @@
+# Netlify bu repodan yayın yaparken sadece site/ klasörünü yayınlar.
+# Derleme adımı yok: dosyalar olduğu gibi yayına çıkar.
+[build]
+  publish = "site"
+  command = ""
